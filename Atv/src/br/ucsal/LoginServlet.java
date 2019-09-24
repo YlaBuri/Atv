@@ -36,7 +36,7 @@ public class LoginServlet extends HttpServlet {
 		String nome= request.getParameter("nome");
 		String senha=request.getParameter("senha");
 		String x=null;
-		if(nome.equals("yla") && senha.equals("123")) {
+		if(nome.equals(senha)) {
 			x="Nome e senha corretos";
 		}else {
 			x="Nome ou senha incorretos";

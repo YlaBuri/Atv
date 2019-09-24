@@ -20,7 +20,7 @@
 			String nome = request.getParameter("nome");
 			String senha = request.getParameter("senha");
 			String texto;
-			if (nome.equals("yla") && senha.equals("123")) {
+			if (nome.equals(senha)) {
 				texto="Nome e senha corretos";
 			} else {
 				texto="Nome ou senha incorretos";
